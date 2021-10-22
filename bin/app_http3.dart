@@ -12,4 +12,14 @@ void main(List<String> arguments) {
       print(respuesta[i].apellidos);
     }
   });
+
+  //////////////// EJERCICIO 3 Parte 2
+  //final url = Uri.parse('http://localhost:3000/docente');
+  // http.get(url).then((res) {
+  //   final body = convert.jsonDecode(res.body);
+  // for (int i = 0; i < body.length; i++) {
+  //    print('${body[i]['nombres']}');
+  //    print('${body[i]['apellidos']}');
+  //  }
+  //});
 }
